@@ -1,0 +1,163 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  /*text-align: center;
+  vertical-align: middle;
+  /*line-height: 250px;*/
+}
+
+.nav {
+  width: 100%;
+  height: 100px;
+  background-color: red;
+}
+
+.logo img {
+  width: 270px;
+  height: 75px;
+  margin: 10px 0 0 50px;
+  float: left;
+}
+
+.links ul {
+  list-style: none;
+  display: inline-block;
+  margin-top: 37px;
+  float: right;
+}
+
+.links a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  color: white;
+}
+
+.links li {
+  font-size: 1.25em;
+  font-weight: 500;
+  /*padding: 5px;*/
+  /*margin-left: 5px;*/
+  margin-right: 60px;
+  float: left;
+}
+
+#div1 {
+  width: 90%;
+  height: 450px;
+  margin: 0 auto;
+  background-image: url("https://static.pexels.com/photos/175032/pexels-photo-175032.jpeg");
+  background-size: cover;
+  /*opacity: 0.6;*/
+}
+
+#div1 h1 {
+  color: white;
+  text-shadow:
+  -1px -1px 0 #000,
+  1px -1px 0 #000,
+  -1px 1px 0 #000,
+  2px 2px 0 #000;
+  font-size:2.5em;
+  line-height: 450px;
+
+}
+
+#div1 span {
+  font-style: italic;
+  text-transform: uppercase;
+  line-height: 5px;
+}
+
+#div1 img {
+  width:100%;
+  height: auto
+  /*max-height:100%;
+  max-width:100%*/
+}
+
+.left {
+  float: left;
+  width: 30%;
+  height: 250px;
+  margin: 2%;
+  margin-left: 32px; /*may need to refactor*/
+  margin-top: 50px;
+}
+
+.center, .right {
+  float: left;
+  width: 30%;
+  height: 250px;
+  margin: 0 2% 2% 0;
+  margin-top: 50px;
+}
+
+/*.right {
+  float: left;
+  width: 30%;
+  height: 250px;
+  margin: 10px;
+  margin-top: 50px;
+  background-color: white;
+  text-align: center;
+  vertical-align: middle;
+  line-height: 250px;
+}*/
+
+#div2 {
+  width: 90%;
+  height: 350px;
+  margin: 0 auto;
+  color: white;
+  background-color: white;
+  background-color: blue;
+
+}
+
+#div2 .intro {
+  font-size: 2.5em;
+  font-style: italic;
+  padding: 25px 10px 10px 10px;
+}
+
+#div2 p {
+  font-size: 1.25em;
+  text-indent: 50px;
+  text-align: justify;
+  padding: 0 25px;
+}
+
+span {
+  font-style: italic;
+}
+
+#div2 .OTEP {
+  text-align: center;
+  font-size: 1.25em;
+}
+
+#div3 {
+  width: 90%;
+  height: 350px;
+  margin: 0 auto;
+  background-color: grey;
+}
+
+#div3 .noodles, .foodstall, .boat{
+  width: 100%;
+  height: 250px;
+  border: 2px solid white;
+}
+footer {
+width: 90%;
+height: 200px;
+background-color: lightgrey;
+margin: 0 auto;
